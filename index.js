@@ -10,6 +10,7 @@ router.get('/hello', async ({ request, response }, next) => {
     response.body = 'Hello world';
 });
 router.get('/ping', async ({ response }) => response.body = 'pong');
+router.get('/servertime', async ({ response }) => response.body = (new Date()).toString());
 
 const app = new Koa();
 app.use(router.routes());
