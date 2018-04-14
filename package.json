@@ -1,0 +1,22 @@
+{
+  "name": "node-study",
+  "version": "1.0.0",
+  "description": "My learning of NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanby95/node-study.git"
+  },
+  "author": "Tuan Duong <dmtuan1995@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuanby95/node-study/issues"
+  },
+  "homepage": "https://github.com/tuanby95/node-study#readme",
+  "dependencies": {
+    "koa": "^2.5.0"
+  }
+}
