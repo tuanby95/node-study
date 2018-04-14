@@ -9,7 +9,7 @@ router.get('/', async ({ request, response }, next) => {
 router.get('/hello', async ({ request, response }, next) => {
     response.body = 'Hello world';
 });
-router.get('/ping', async ({ response }) => response.body = 'Ok');
+router.get('/ping', async ({ response }) => response.body = 'pong');
 
 const app = new Koa();
 app.use(router.routes());
