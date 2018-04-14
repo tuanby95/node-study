@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/tuanby95/node-study#readme",
   "dependencies": {
-    "koa": "^2.5.0"
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
   }
 }
